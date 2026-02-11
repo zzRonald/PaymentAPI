@@ -1,0 +1,49 @@
+# === Angular / Node (Frontend) ===
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+__screenshots__/
+
+# === Visual Studio / .NET (Backend) ===
+# User-specific files
+*.user
+*.userosscache
+*.sln.doccache
+*.suo
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio 2015/2017/2019/2022 cache and settings
+.vs/
+*.slnx
+*.vsidx
+
+# === IDEs and Editors ===
+.vscode/
+.idea/
+.project
+.classpath
+*.launch
+.settings/
+
+# === System Files ===
+.DS_Store
+Thumbs.db
