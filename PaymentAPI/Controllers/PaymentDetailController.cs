@@ -80,7 +80,7 @@ namespace PaymentAPI.Controllers
             _context.PaymentDetails.Add(paymentDetail);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetPaymentDetail", new { id = paymentDetail.PaymentId }, paymentDetail);
+            return Ok(await _context.PaymentDetails.ToListAsync());
         }
 
         // DELETE: api/PaymentDetail/5
