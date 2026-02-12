@@ -1,14 +1,13 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { PaymentDetailForm } from "./payment-details/payment-detail-form/payment-detail-form";
-import { PaymentDetails } from "./payment-details/payment-details";
+import { PaymentDetailsComponent } from "./payment-details/payment-details"; // Nome exato da classe
 
 @Component({
   selector: 'app-root',
-  imports: [PaymentDetails],
+  standalone: true,
+  imports: [PaymentDetailsComponent], 
   templateUrl: './app.html',
-  styles: [],
 })
-export class App {
-  protected readonly title = signal('PaymentApp');
+export class AppComponent {
+  title = 'PaymentApp';
 }
