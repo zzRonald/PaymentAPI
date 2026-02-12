@@ -26,13 +26,13 @@ O **PaymentSystem** é um ecossistema completo que une a robustez do **ASP.NET C
 
 O repositório utiliza separação de responsabilidades para facilitar a escalabilidade:
 
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="25"/> **PaymentAPI (Backend)**
+
 * 📂 **Controllers** -> `PaymentDetailsController.cs` (Orquestração de Endpoints CRUD)
 * 📂 **Models** -> `PaymentDetail.cs` & `Context` (Domínio e Mapeamento de Dados)
 * ⚙️ **Program.cs** -> Configuração de Injeção de Dependência e Políticas de **CORS**
 * 📄 **appsettings** -> Configurações de conexão com **SQL Server**
 
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" width="25"/> **PaymentApp (Frontend)**
+
 * 📂 **payment-details** -> Componentes de UI (Formulários e Listagem Dinâmica)
 * 📂 **shared** -> `payment-detail.service.ts` (Consumo de API via HttpClient)
 * 🚀 **main.ts** -> Inicialização do App com **Standalone Components**
@@ -41,7 +41,7 @@ O repositório utiliza separação de responsabilidades para facilitar a escalab
 
 ## 🛠️ Setup de Combate
 
-### 1. Backend (<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="15"/> .NET 8)
+### 1. Backend 
 ```bash
 # Entrar na pasta da API
 cd PaymentAPI
@@ -51,7 +51,7 @@ dotnet ef database update
 
 # Executar servidor
 dotnet run
-2. Frontend (<img src="https://www.google.com/search?q=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="15"/> Angular)
+2. Frontend 
 Bash
 # Entrar na pasta do App
 cd PaymentApp
@@ -68,14 +68,4 @@ JSON
 "ConnectionStrings": {
   "DevConnection": "Server=.;Database=PaymentDb;Trusted_Connection=True;TrustServerCertificate=True"
 }
-🚀 Skills Implementadas
-<div align="center">
-<img src="https://www.google.com/search?q=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="40" title="Visual Studio"/>
-<img src="https://www.google.com/search?q=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" title="VS Code"/>
-<img src="https://www.google.com/search?q=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" title="Git"/>
-<img src="https://www.google.com/search?q=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="40" title="Bootstrap"/>
-<img src="https://www.google.com/search?q=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" title="NodeJS"/>
-</div>
 
-
-</p>
