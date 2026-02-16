@@ -66,6 +66,6 @@ No seu appsettings.json, a conexão utiliza Trusted Connection:
 
 JSON
 "ConnectionStrings": {
-  "DevConnection": "Server=.;Database=PaymentDb;Trusted_Connection=True;TrustServerCertificate=True"
+  "DevConnection": "Server=( server name );Database=( DB NAME );Trusted_Connection=True;TrustServerCertificate=True"
 }
 
